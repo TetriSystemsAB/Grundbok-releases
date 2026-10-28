@@ -88,7 +88,7 @@ Vi säger hellre för mycket än för lite:
 
 - **SRU-filerna** (deklarationsexporten) bygger på Skatteverkets
   fältkodstabeller. Stäm av mot Skatteverkets aktuella fältnamnstabell innan
-  du lämnar in skarpt, och rapportera gärna avvikelser till oss. Stäm också av
+  du lämnar in den, och rapportera gärna avvikelser till oss. Stäm också av
   momsdeklarationens rutor första gången.
 - **Automatisk bankkoppling är en planerad funktion.** Knappen *Anslut bank*
   visar "Planerad funktion" och gör ingenting. Import av kontoutdrag från fil
@@ -126,5 +126,5 @@ Ange gärna version (visas under Beta & support i appen).
 
 ---
 
-© 2026 Tetri Systems AB. Alla rättigheter förbehållna.
+© 2026 Tetri Systems AB. All rights reserved.
 Grundbok är proprietär programvara; betan är gratis att använda.
