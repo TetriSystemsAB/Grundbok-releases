@@ -24,20 +24,37 @@ senare).
   som en enskild firma (3 kap. 1 §). Grundbok ser det i delägarregistret
   (Inställningar → Delägare). Har handelsbolaget inga delägare registrerade
   frågar Grundbok innan ett brutet räkenskapsår skapas, också när företaget
-  läggs upp.
+  läggs upp. Grundbok frågar på samma sätt om ingen delägare är en fysisk
+  person men någon har ett organisationsnummer som börjar med 9. Den serien
+  har handelsbolag och kommanditbolag, och Grundbok ser inte vilka som äger
+  dem.
 - **Det sista året kan kortas av.** Ett år från 1 januari till slutet av en
   tidigare månad skapas när du bekräftar att det är året då
-  bokföringsskyldigheten upphör (3 kap. 3 §).
-- **Byte till kalenderår.** Efter ett brutet räkenskapsår kan nästa år börja
-  den 1:a i en månad och sluta 31 december, högst 18 månader. Det skapas när du
-  bekräftar att räkenskapsåret läggs om. Om omläggningen kräver Skatteverkets
-  tillstånd kontrollerar Grundbok inte.
-- **Aktiebolag, och handelsbolag utan fysiska personer som delägare:** ett
-  senare år som inte är tolv månader, eller som slutar i en annan månad än året
-  före, frågas först. Frågan säger att en omläggning kräver Skatteverkets
-  tillstånd (3 kap. 6 §).
+  bokföringsskyldigheten upphör (3 kap. 3 §). För en enskild firma och ett
+  handelsbolag med en fysisk person som delägare skapas ett senare år sedan
+  bara när du bekräftar att bokföringsskyldigheten har börjat igen. Det året
+  följer reglerna för ett första år.
+- **Byte från brutet räkenskapsår till kalenderår.** Nästa år börjar dagen
+  efter att det brutna året slutar och slutar 31 december, högst 18 månader.
+  Det skapas när du bekräftar att räkenskapsåret läggs om. Ett sådant byte
+  behöver inte Skatteverkets tillstånd (3 kap. 6 § punkt 1). För en enskild
+  firma och ett handelsbolag med en fysisk person som delägare säger Grundbok
+  också att Skatteverket kan förelägga företaget att byta, vid vite (7 §).
+- **Andra byten av räkenskapsår kräver tillstånd.** För aktiebolag, och
+  handelsbolag utan fysiska personer som delägare, frågas ett senare år först
+  om det inte är tolv månader eller slutar i en annan månad än året före.
+  Frågan säger att bytet bara får göras med Skatteverkets tillstånd (3 kap.
+  6 §). Undantaget är ett byte till gemensamt räkenskapsår enligt 4 och 5 §§
+  (6 § punkt 2).
+- **Inga glapp och inga överlapp.** Ett år som byter räkenskapsår måste börja
+  dagen efter att året före slutar. Exemplen Grundbok visar börjar den dagen
+  och krockar aldrig med ett år som redan finns.
 - **SIE-import** byter inte längre räkenskapsår om någon verifikation då
-  skulle falla bort. Filen nekas i stället, och ingenting sparas.
+  skulle falla bort. Filen nekas i stället, och ingenting sparas. När Grundbok
+  rättar filens år till ett kalenderår ändras aldrig ett räkenskapsår som
+  redan finns. Gäller filen ett år efter ett avkortat sista år, eller ett
+  brutet år i ett handelsbolag med en delägare vars nummer börjar med 9,
+  frågar Grundbok först, som när året skapas för hand.
 - **Text klipps inte längre av i Verifikationer.** Märkningar som "rättelse"
   och antal underlag syns alltid. Belopp, knappar och fält får plats även i
   smala fönster. En lång verifikationstext slutar med … i listan, men hela
@@ -50,9 +67,20 @@ senare).
 
 - Med valet "Samma dag som inkomstdeklarationen" visar momsrapporten vilket
   datum Grundbok räknar med. Jämför det med beskedet från Skatteverket.
+- Grundbok kan inte se om Skatteverket har gett tillstånd att byta
+  räkenskapsår. Det är ditt ansvar.
 - Ett räkenskapsår som redan finns i Grundbok kan inte förlängas i efterhand.
 - Räkenskapsår som redan finns kontrolleras inte på nytt om du ändrar
   företagsformen eller delägarregistret.
+- För en enskild firma eller ett handelsbolag med en fysisk person som
+  delägare kan rutan för nytt räkenskapsår ibland föreslå datum som Grundbok
+  inte godtar. Beskedet säger då vad som gäller, ofta med exempel på år som
+  går att skapa.
+- En SIE-fil kan ersätta ett tomt räkenskapsår som överlappar filens år.
+  Grundbok säger det efter inläsningen, inte före.
+- För en enskild firma eller ett handelsbolag med en fysisk person som
+  delägare kan Grundbok, efter ett avkortat sista år, neka en SIE-fil som bara
+  gäller en del av ett år, till exempel ett momskvartal.
 - I ett smalt fönster (under ungefär 1 000 punkter) kan företagsnamnet i
   toppraden kortas av så att nästan inget syns. Hela namnet syns när du byter
   företag.
@@ -89,4 +117,4 @@ bara åt ett håll.
 ## Kontrollsumma
 
 SHA-256 för Grundbok-0.10.1-beta.dmg:
-`aff8aee02913e1d4333cf4699557d61091efd3094fc7185f69b13a2483626fa4`
+`5a5f2a0e69c50fc1e8a972a692cd82853ff928d4c2d48f400643af7e8a3341f9`
