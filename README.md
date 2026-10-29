@@ -17,7 +17,7 @@ Grundbok ges ut av Tetri Systems AB. Betan är gratis.
 
 | Plattform | Fil | Status |
 |---|---|---|
-| macOS 26 (Tahoe) eller senare, Apple Silicon (M1 eller senare) | **Grundbok-0.10.0-beta.dmg** under [Releases](../../releases) | Beta |
+| macOS 26 (Tahoe) eller senare, Apple Silicon (M1 eller senare) | **Grundbok-0.10.1-beta.dmg** under [Releases](../../releases) | Beta |
 | macOS (Intel) | — | Kommer senare |
 | Windows | — | Kommer senare |
 
@@ -30,12 +30,12 @@ Kontrollsumma (SHA-256) finns i release-texten. Vill du kontrollera filen kan
 du skriva det här i Terminal. Svaret ska vara samma som i release-texten.
 
 ```
-shasum -a 256 ~/Downloads/Grundbok-0.10.0-beta.dmg
+shasum -a 256 ~/Downloads/Grundbok-0.10.1-beta.dmg
 ```
 
 ## Installera
 
-1. Öppna **Grundbok-0.10.0-beta.dmg** (dubbelklicka på filen i Hämtade filer).
+1. Öppna **Grundbok-0.10.1-beta.dmg** (dubbelklicka på filen i Hämtade filer).
 2. Dra **Grundbok** till **Applications** (mappen Program) i fönstret som öppnas.
 3. Öppna Grundbok från **Program**, inte direkt från dmg-fönstret.
 4. Första gången kan macOS fråga: *”Grundbok” är en app som hämtats från
